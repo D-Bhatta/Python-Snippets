@@ -9,7 +9,7 @@ install:
 script:
   - black --line-length=79 --check .
   - pytest
-  - pytest --cov=project-name --cov-fail-under=100
+  - pytest --cov=programs --cov-fail-under=0
 after_success:
   - coveralls
 env:
