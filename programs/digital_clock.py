@@ -36,7 +36,10 @@ def label_config(root):
         colors of root.
     """
     clock_label = Label(
-        root, font=("Calibri", 40, "bold"), background="#186C8F", foreground="#F3A548"
+        root,
+        font=("Calibri", 40, "bold"),
+        background="#186C8F",
+        foreground="#F3A548",
     )
     clock_label.pack(anchor="center")
 
