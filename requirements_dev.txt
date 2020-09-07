@@ -2,6 +2,7 @@ black==19.10b0
 coveralls==2.1.1
 grip==4.5.2
 pip==20.2
+playsound==1.2.2
 pre-commit==2.6.0
 pytest==6.0.1
 pytest-cov==2.10.0
