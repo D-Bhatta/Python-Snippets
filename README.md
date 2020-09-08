@@ -34,3 +34,14 @@ Displays a digital clock with local time and date. Created using python tkinter.
    2. Font
    3. Time zone
    4. Window size
+
+### Client and Server program using python
+
+#### About
+
+A client and server program that can transfer messages back and forth.
+
+#### Future Enhancements
+
+1. Add ability to transfer images and other media
+2. Add ability to transfer over the internet securely using https.
