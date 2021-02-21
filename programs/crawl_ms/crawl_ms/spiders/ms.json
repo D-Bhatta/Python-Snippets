@@ -1,0 +1,74 @@
+{
+    "data": [
+        {
+            "Recommendation": "When you build custom VM images, apply the latest updates.",
+            "Comments": "Before you create images, install the latest updates for the operating system and for all applications that will be part of your image.",
+            "Security Center": "-"
+        },
+        {
+            "Recommendation": "Keep your VMs current.",
+            "Comments": "You can use the  Update Management solution in Azure Automation to manage operating system updates for your Windows and Linux computers in Azure.",
+            "Security Center": "Yes"
+        },
+        {
+            "Recommendation": "Back up your VMs.",
+            "Comments": "Azure Backup helps protect your application data and has minimal operating costs. Application errors can corrupt your data, and human errors can introduce bugs into your applications. Azure Backup protects your VMs that run Windows and Linux.",
+            "Security Center": "-"
+        },
+        {
+            "Recommendation": "Use multiple VMs for greater resilience and availability.",
+            "Comments": "If your VM runs applications that must be highly available, use multiple VMs or availability sets.",
+            "Security Center": "-"
+        },
+        {
+            "Recommendation": "Adopt a business continuity and disaster recovery (BCDR) strategy.",
+            "Comments": "Azure Site Recovery allows you to choose from different options designed to support business continuity. It supports different replication and failover scenarios. For more information, see About Site Recovery.",
+            "Security Center": "-"
+        },
+        {
+            "Recommendation": "Encrypt operating system disks.",
+            "Comments": "Azure Disk Encryption helps you encrypt your Windows and Linux IaaS VM disks. Without the necessary keys, the contents of encrypted disks are unreadable. Disk encryption protects stored data from unauthorized access that would otherwise be possible if the disk were copied.",
+            "Security Center": "Yes"
+        },
+        {
+            "Recommendation": "Encrypt data disks.",
+            "Comments": "Azure Disk Encryption",
+            "Security Center": "-"
+        },
+        {
+            "Recommendation": "Limit installed software.",
+            "Comments": "Limit installed software to what is required to successfully apply your solution. This guideline helps reduce your solution's attack surface.",
+            "Security Center": "-"
+        },
+        {
+            "Recommendation": "Use antivirus or antimalware.",
+            "Comments": "In Azure, you can use antimalware software from security vendors such as Microsoft, Symantec, Trend Micro, and Kaspersky. This software helps protect your VMs from malicious files, adware, and other threats. You can deploy Microsoft Antimalware based on your application workloads. Microsoft Antimalware is available for Windows machines only. Use either basic secure-by-default or advanced custom configuration. For more information, see  Microsoft Antimalware for Azure Cloud Services and Virtual Machines.",
+            "Security Center": "-"
+        },
+        {
+            "Recommendation": "Securely store keys and secrets.",
+            "Comments": "Simplify the management of your secrets and keys by providing your application owners with a secure, centrally managed option. This management reduces the risk of an accidental compromise or leak. Azure Key Vault can securely store your keys in hardware security modules (HSMs) that are certified to FIPS 140-2 Level 2. If you need to use FIPs 140.2 Level 3 to store your keys and secrets, you can use Azure Dedicated HSM.",
+            "Security Center": "-"
+        },
+        {
+            "Recommendation": "Centralize VM authentication.",
+            "Comments": "You can centralize the authentication of your Windows and Linux VMs by using  Azure Active Directory authentication.",
+            "Security Center": "-"
+        },
+        {
+            "Recommendation": "Monitor your VMs.",
+            "Comments": "You can use Azure Monitor for VMs to monitor the state of your Azure VMs and virtual machine scale sets. Performance issues with a VM can lead to service disruption, which violates the security principle of availability.",
+            "Security Center": "-"
+        },
+        {
+            "Recommendation": "Restrict access to management ports.",
+            "Comments": "Attackers scan public cloud IP ranges for open management ports and attempt \"easy\" attacks like common passwords and known unpatched vulnerabilities. You can use  just-in-time (JIT) VM access to lock down inbound traffic to your Azure VMs, reducing exposure to attacks while providing easy connections to VMs when they're needed.",
+            "Security Center": "-"
+        },
+        {
+            "Recommendation": "Limit network access.",
+            "Comments": "Network security groups allow you to restrict network access and control the number of exposed endpoints. For more information, see Create, change, or delete a network security group.",
+            "Security Center": "-"
+        }
+    ]
+}
